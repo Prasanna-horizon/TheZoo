@@ -1,4 +1,3 @@
 # TheZoo
-A website source code for zoo including assets, a pdf downloading system (i.e. using the fpdf) for downloading the booking list for admin
-Import the MySQL Databases into phpMyAdmin
-And you are good to go I guess....
+Welcome to TheZoo Website project! This project is a comprehensive web application for managing and displaying information about a zoo. It includes features such as animal listings, visitor information, ticket booking, and reports generation using fpdf.
+The following repository contains HTML, CSS, PHP, fpdf, sql files for ready to use.
