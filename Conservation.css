@@ -1,0 +1,305 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+header h1 {
+	margin: 0;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	margin-right: 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+section {
+	padding: 2rem;
+	height: 720px;
+}
+
+.info {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center  center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #forL1
+  {
+      position: absolute;
+      left:3%;
+      top: 15%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :40px;
+  }
+
+  #forL2
+  {
+      position: absolute;
+      left:3%;
+      top: 235%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :40px;
+  }
+
+  #forL3
+  {
+      position: absolute;
+      left:3%;
+      top: 345%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :40px;
+  }
+
+  #forL4
+  {
+      position: absolute;
+      left:3%;
+      top: 455%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :40px;
+  }
+
+  #forR1
+  {
+      position: absolute;
+      right:3%;
+      top:160%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:white;
+      font-size :40px;
+  }
+  
+  p
+  {
+      position: absolute;
+      right:10%;
+      bottom: 30%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+  
+  #forLMini1
+  {
+      position: absolute;
+      left:3%;
+      top:30%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  #forLMini2
+  {
+      position: absolute;
+      left:3%;
+      top:34%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  #forLMini3
+  {
+      position: absolute;
+      left:3%;
+      top:42%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  #forLMini4
+  {
+      position: absolute;
+      left:5%;
+      top:180%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  #forLMini5
+  {
+      position: absolute;
+      left:5%;
+      top:189%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  #forLMini6
+  {
+      position: absolute;
+      left:5%;
+      top:197%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  #forLMini7
+  {
+      position: absolute;
+      left:5%;
+      top:364%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  #forLMini8
+  {
+      position: absolute;
+      left:5%;
+      top:374%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  #forLMini9
+  {
+      position: absolute;
+      left:5%;
+      top:385%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  #forLMini10
+  {
+      position: absolute;
+      left:5%;
+      top:475%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  #forLMini11
+  {
+      position: absolute;
+      left:5%;
+      top:485%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  #forLMini12
+  {
+    position: absolute;
+    left:5%;
+    top:495%;
+    font-family: 'Zen Tokyo Zoo', sans-serif;
+    color:White;
+    font-size :Large;
+    text-decoration: none; 
+  }
+
+  #forLMini13
+  {
+    position: absolute;
+    left:5%;
+    top:505%;
+    font-family: 'Zen Tokyo Zoo', sans-serif;
+    color:White;
+    font-size :Large;
+    text-decoration: none; 
+  }  
+
+  #forRMini1
+  {
+      position: absolute;
+      left:5%;
+      top:255%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  #forRMini2
+  {
+      position: absolute;
+      left:5%;
+      top:265%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  #forRMini3
+  {
+      position: absolute;
+      left:5%;
+      top:275%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+   #forRMini4
+  {
+      position: absolute;
+      left:5%;
+      top:285%;
+      font-family: 'Zen Tokyo Zoo', sans-serif;
+      color:White;
+      font-size :Large;
+      text-decoration: none;
+  }
+
+  footer {
+	background-color: #333;
+	color: #fff;
+	padding: 3rem;
+	text-align: center;
+}

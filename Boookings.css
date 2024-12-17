@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center  center;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+  margin-block-end: auto;
+}
+
+header h1 {
+	margin: 0;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	margin-right: 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+section {
+	padding: 2rem;
+	height: 720px;
+}
+
+.container {
+  position: relative;
+  max-width: 600px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.5s ease forwards;
+  overflow: hidden;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="number"],
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+  background-color: #0056b3;
+}
+
+footer{
+background-color: #333;
+color: #fff;
+padding: 1rem;
+width: 100%;
+margin-right:5%;
+margin-top: 3%;
+text-align: center;
+}

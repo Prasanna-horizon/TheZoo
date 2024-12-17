@@ -1,0 +1,75 @@
+/* Apply basic styling to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center  center;
+    width: 100%;
+}
+
+/* Container to hold the booking details */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style the heading */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style table header */
+th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style table rows */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style table rows alternating background color */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style the download PDF button */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Make the button responsive */
+@media screen and (max-width: 600px) {
+    button {
+        width: 100%;
+    }
+}

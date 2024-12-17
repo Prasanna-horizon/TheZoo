@@ -1,0 +1,175 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width:102%;
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+@keyframes slideIn {
+	0% {
+	  transform: translateX(100%);
+	  opacity: 0;
+	}
+	100% {
+	  transform: translateX(0);
+	  opacity: 1;
+	}
+  }
+
+  #forRight, #forRight1, #forRightMini1, #forRightMini {
+	animation: slideIn 1s ease-out forwards;
+  }
+
+  #forLeft, #forLeft1, #forLeftMini1, #forLeftMini {
+	animation: slideIn 1s ease-out forwards;
+  } 
+  
+header h1 {
+	margin: 0;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	margin-right: 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+section {
+	padding: 2rem;
+	height: 720px;
+}
+
+.info {
+    background-size: cover;
+    background-position: center  center;
+    width: 100%;
+    height: 100%;
+  }
+
+#forLefted1{
+	position: absolute;
+	left:1%;
+	top: 451%;
+	font-family: 'Zen Tokyo Zoo', sans-serif;
+	color:White;
+	font-size :20px;
+}
+
+#forLefted2{
+	position: absolute;
+	left:0%;
+	top: 457%;
+	font-family: 'Zen Tokyo Zoo', sans-serif;
+	color:White;
+	font-size :20px;
+}
+
+#forRight
+{
+	position: absolute;
+	right:10%;
+	bottom: 30%;
+	font-family: 'Zen Tokyo Zoo', sans-serif;
+	color:White;
+	font-size :40px;
+}
+#forLeft
+{
+	position: absolute;
+	left:10%;
+	top: 180%;
+	font-family: 'Zen Tokyo Zoo', sans-serif;
+	color:White;
+	font-size :40px;
+}
+#forLeftMini
+{
+	position: absolute;
+	left:10%;
+	top: 185%;
+	font-family: 'Zen Tokyo Zoo', sans-serif;
+	color:White;
+	font-size :20px;
+}
+#forRightMini
+{
+	position: absolute;
+	right:10%;
+	bottom: 30%;
+	font-family: 'Zen Tokyo Zoo', sans-serif;
+	color:White;
+	font-size :Large;
+	text-decoration: none;
+}
+
+#forRight1
+{
+	position: absolute;
+	right:10%;
+	top:285%;
+	font-family: 'Zen Tokyo Zoo', sans-serif;
+	color:White;
+	font-size :40px;
+}
+#forRightMini1
+{
+	position: absolute;
+	right:10%;
+	top:290%;
+	font-family: 'Zen Tokyo Zoo', sans-serif;
+	color:White;
+	font-size :Large;
+	text-decoration: none;
+}
+#forLeft1
+{
+	position: absolute;
+	left:10%;
+	top: 390%;
+	font-family: 'Zen Tokyo Zoo', sans-serif;
+	color:White;
+	font-size :40px;
+}
+#forLeftMini1
+{
+	position: absolute;
+	left:9%;
+	top: 395%;
+	font-family: 'Zen Tokyo Zoo', sans-serif;
+	color:White;
+	font-size :20px;
+}
+section h2 {
+	margin-top: 0;
+}
+
+footer {
+	width:102%;
+	height:15%;
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
